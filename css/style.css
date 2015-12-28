@@ -1,0 +1,92 @@
+/*!
+ * Project:The Wishing Trunk Boutique
+ * Description: A project of PAC and Copy Solutions
+ * Author: http://www.pacandcopy.com/
+ */
+/* --- Fonts ---*/
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+/* --- Main Body ---*/
+body.bg{
+	background:url('../images/background.jpg');
+}
+.main-class{
+	padding-top:150px;
+	padding-bottom:20px;
+}
+.define-size{
+	margin-left: -20px;
+    width: 91%;
+}
+.define-height{
+	height:50px;
+}
+.newsletter{
+	padding:1px;
+	background:#dfcdb2;
+	border:1px solid #c7b297;
+	border-radius:4px;
+	
+}
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
+    margin-left: 0px;
+}
+
+.newsletter .txt-input{
+	background:#dfceb3;
+	border:none;
+	width: 100%;
+	font-size:14px;
+	box-shadow: none;
+	font-family: "PT Sans";
+}
+.btn-adjust{
+	width: 30%;
+}
+.btn-adjust .btn-newsletter{
+	width:100%;
+	background:#765020;
+	color:#fff;
+	font-size:18px;
+	border-radius: 3px;
+	border-top-left-radius: 3px!important;
+    border-bottom-left-radius: 3px!important;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* do not group these rules */
+#txt-field::-webkit-input-placeholder {
+    color: #805722;
+}
+#txt-field:-moz-placeholder {
+    /* FF 4-18 */
+    color: #805722;
+}
+#txt-field::-moz-placeholder {
+    /* FF 19+ */
+    color: #805722;
+}
+#txt-field:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #805722;
+}
+.bottom-class{
+	padding-top:20px;
+	padding-bottom:180px;
+}
+/* --- Responsive Queries ---*/
+@media(max-width:1200px) {
+	.define-size {
+		margin-left: 0px;
+		width: 100%;
+	}
+	.img-adjust{
+		width:100%
+		}
+}
+@media(max-width:380px) {
+	.define-size {
+		margin-left: -15px;
+		width: 110%;
+	}
+}

@@ -1,0 +1,6 @@
+[02-Dec-2015 20:15:53 Asia/Karachi] PHP Fatal error:  Call to undefined function hash_equals() in /home/amztco/public_html/test/verification.php on line 4
+[02-Dec-2015 20:17:12 Asia/Karachi] PHP Parse error:  syntax error, unexpected ')' in /home/amztco/public_html/test/verification.php on line 5
+[02-Dec-2015 20:17:35 Asia/Karachi] PHP Fatal error:  Call to a member function query() on a non-object in /home/amztco/public_html/test/verification.php on line 6
+[02-Dec-2015 20:23:14 Asia/Karachi] PHP Fatal error:  Call to a member function query() on a non-object in /home/amztco/public_html/test/verification.php on line 6
+[02-Dec-2015 20:25:25 Asia/Karachi] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/amztco/public_html/test/include/db.class.php on line 79
+[02-Dec-2015 21:14:14 Asia/Karachi] PHP Parse error:  syntax error, unexpected '{' in /home/amztco/public_html/test/mailer.php on line 25

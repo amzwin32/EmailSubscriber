@@ -1,0 +1,1 @@
+<?phprequire 'config.php';$func->display_menu(0, 1);?>
